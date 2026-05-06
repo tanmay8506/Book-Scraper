@@ -3,7 +3,6 @@ A Python-based web scraper that extracts data from a book retail site and uses G
 
 Features
 Automated Scraping: Extracts book titles, prices, star ratings, and stock status across multiple pages using BeautifulSoup.  
-+1
 
 Data Export: Saves all scraped data into a structured books.csv file.  
 
@@ -15,22 +14,19 @@ Project Structure
 main.py: The entry point that orchestrates the scraping, saving, and AI summary process.  
 
 scraper.py: Contains the logic for HTTP requests and HTML parsing.  
-+1
 
 report.py: Holds the HTML template and CSS used to build the final report.  
 
 .env: Stores your Groq API key securely.  
-+1
 
 Setup
 Install Dependencies:
 
 Bash
 pip install -r requirements.txt
+
 Configure API Key:
 Create a .env file in the root directory and add your key:
-
-Plaintext
 GROQ_API_KEY=your_api_key_here
 Run the Program:
 
@@ -38,6 +34,5 @@ Bash
 python main.py
 Technical Details
 Target Site: books.toscrape.com (a legal practice site).  
-+1
 
 Tech Stack: Python, Requests, BeautifulSoup4, Groq SDK, and Dotenv.
